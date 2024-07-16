@@ -25,7 +25,7 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
-			identifier: "LocalNode", //- Used for indentifier in stats commands.
+			identifier: "Main Node", //- Used for indentifier in stats commands.
 			host: "ll.sleepyinsomniac.eu.org", //- The host name or IP of the lavalink server.
 			port: 80, // The port that lavalink is listening to. This must be a number!
 			password: "youshallnotpass", //- The password of the lavalink server.
