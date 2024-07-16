@@ -1,16 +1,16 @@
 module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
-	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "", //- ID of the bot
-	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
+	adminId: "1074763726856654898", //- Replace UserId with the Discord ID of the admin of the bot
+	token: process.env.token || "MTI1OTA3MzY3NDAxMTYxMTE4Nw.G8WWoN.2REIEKJtg38waBkuIqlG0GJIZtFaI3ph5SaLoM", //- Bot's Token
+	clientId: process.env.clientId || "1259073674011611187", //- ID of the bot
+	clientSecret: process.env.clientSecret || "ly-ggU-k50c8hZPs3Yklt2MywcDE_Ksu", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
 	serverDeafen: true, //- If you want bot to stay deafened
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
-	supportServer: "https://discord.gg/sbySMS7m3v", //- Support Server Link
+	supportServer: "https://discord.gg/4vpJRCNvYA", //- Support Server Link
 	Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //- Bug Report Link
 	permissions: 277083450689, //- Bot Inviting Permissions
 	disconnectTime: 30000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
@@ -25,10 +25,10 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
-			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "", //- The host name or IP of the lavalink server.
-			port: 80, // The port that lavalink is listening to. This must be a number!
-			password: "", //- The password of the lavalink server.
+			identifier: "Main", //- Used for indentifier in stats commands.
+			host: "node1.roverdev.xyz", //- The host name or IP of the lavalink server.
+			port: 27100, // The port that lavalink is listening to. This must be a number!
+			password: "discord.gg/codersplanet", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
 			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
@@ -40,10 +40,10 @@ module.exports = {
 		status: "online", //- You can have online, idle, dnd and invisible (Note: invisible makes people think the bot is offline)
 		activities: [
 			{
-				name: "Music", //- Status Text
+				name: "Listening to Earl", //- Status Text
 				type: "LISTENING", //- PLAYING, WATCHING, LISTENING, STREAMING
 			},
 		],
 	},
-	iconURL: "https://cdn.darrennathanael.com/icons/spinning_disk.gif", //- This icon will be in every embed's author field
+	iconURL: "https://media.tenor.com/IZH_k7F9aqcAAAAi/music.gif", //- This icon will be in every embed's author field
 };
