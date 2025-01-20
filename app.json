@@ -20,19 +20,19 @@
   ],
   "env": {
     "token": {
-      "description": "The Discord Bot Token (https://discord.com/developers/applications)",
+      "description": "MTMyODU5ODAyNzc0NDU3NTQ5OA.GCiPcx.TWdulZiJux3oM7RZGhGlKSNKTEmD5ZCMDWZr_k",
       "required": "true"
     },
     "clientId": {
-      "description": "The Discord Bot ClientID",
+      "description": "1328598027744575498",
       "required": "true"
     },
     "clientSecret": {
-      "description": "The Discord Bot ClientSecret",
+      "description": "wov3wVl4h019yRchA_E0ilT8Wplvyrdw",
       "required": "true"
     },
     "website": {
-      "description": "URL of your webserver (Example: https://domain.xyz). Change this if you want to use the web-dashboard.",
+      "description": "https://Dashboard=allea.xyz",
       "value": "http://localhost"
     }
   }
