@@ -1,16 +1,16 @@
 module.exports = {
 	helpCmdPerPage: 10, //- Number of commands per page of help command
 	lyricsMaxResults: 5, //- Number of results for lyrics command (Do not touch this value if you don't know what you are doing)
-	adminId: "1074763726856654898", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "MTI1OTA3MzY3NDAxMTYxMTE4Nw.G8WWoN.2REIEKJtg38waBkuIqlG0GJIZtFaI3ph5SaLoM", //- Bot's Token
-	clientId: process.env.clientId || "1259073674011611187", //- ID of the bot
-	clientSecret: process.env.clientSecret || "ly-ggU-k50c8hZPs3Yklt2MywcDE_Ksu", //- Client Secret of the bot
+	adminId: "1273097681538908263", //- Replace UserId with the Discord ID of the admin of the bot
+	token: process.env.token || "MTMyODU5ODAyNzc0NDU3NTQ5OA.GCiPcx.TWdulZiJux3oM7RZGhGlKSNKTEmD5ZCMDWZr_k", //- Bot's Token
+	clientId: process.env.clientId || "1273097681538908263", //- ID of the bot
+	clientSecret: process.env.clientSecret || "1328598027744575498", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	inviteScopes: ["bot", "applications.commands"], // Invite link scopes
 	serverDeafen: true, //- If you want bot to stay deafened
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
-	supportServer: "https://discord.gg/4vpJRCNvYA", //- Support Server Link
+	supportServer: "https://discord.gg/NTFrKvNqkW", //- Support Server Link
 	Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //- Bug Report Link
 	permissions: 277083450689, //- Bot Inviting Permissions
 	disconnectTime: 30000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
@@ -26,12 +26,12 @@ module.exports = {
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "ll.sleepyinsomniac.eu.org", //- The host name or IP of the lavalink server.
-			port: 80, // The port that lavalink is listening to. This must be a number!
-			password: "youshallnotpass", //- The password of the lavalink server.
+			host: "lavalink.razorbot.buzz", //- The host name or IP of the lavalink server.
+			port: 6969, // The port that lavalink is listening to. This must be a number!
+			password: "dsc.gg/razorsupport", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
+			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
 		},
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
